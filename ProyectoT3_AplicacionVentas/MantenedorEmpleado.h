@@ -1,7 +1,7 @@
 #pragma once
 
 namespace ProyectoT3_AplicacionVentas {
-
+	// Raul - Probando ando... funciona 
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -65,7 +65,7 @@ namespace ProyectoT3_AplicacionVentas {
 			this->dgvListaEmpleado = (gcnew System::Windows::Forms::DataGridView());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->btnAgregar = (gcnew System::Windows::Forms::Button());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->dgvListaEmpleado))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dgvListaEmpleado))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// btnRecargar
@@ -121,6 +121,7 @@ namespace ProyectoT3_AplicacionVentas {
 			this->btnAgregar->TabIndex = 8;
 			this->btnAgregar->Text = L"Agregar Empleado";
 			this->btnAgregar->UseVisualStyleBackColor = true;
+			this->btnAgregar->Click += gcnew System::EventHandler(this, &MantenedorEmpleado::btnAgregar_Click);
 			// 
 			// MantenedorEmpleado
 			// 
@@ -140,7 +141,7 @@ namespace ProyectoT3_AplicacionVentas {
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Lista de Empleados";
 			this->Load += gcnew System::EventHandler(this, &MantenedorEmpleado::MantenedorEmpleado_Load);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->dgvListaEmpleado))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dgvListaEmpleado))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -197,5 +198,7 @@ namespace ProyectoT3_AplicacionVentas {
 private: System::Void txtBuscarEmpleado_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 			 buscaempleado();
 		 }
+private: System::Void btnAgregar_Click(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 }
