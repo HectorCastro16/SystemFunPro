@@ -1,0 +1,26 @@
+﻿Compilación iniciada a las 22/11/2016 12:20:50 a.m..
+     1>Proyecto "C:\Users\jhonatan\Documents\Visual Studio 2012\Projects\ProyectoT3_AplicacionVentas\ProyectoT3_AplicacionVentas\ProyectoT3_AplicacionVentas.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Principal1.cpp
+         Principal1.cpp
+     1>c:\users\jhonatan\documents\visual studio 2012\projects\proyectot3_aplicacionventas\proyectot3_aplicacionventas\RegistrarProducto.h(264): warning C4101: 'myReader' : variable local sin referencia
+     1>c:\users\jhonatan\documents\visual studio 2012\projects\proyectot3_aplicacionventas\proyectot3_aplicacionventas\MantenedorProducto.h(160): warning C4101: 'myReader' : variable local sin referencia
+     1>c:\users\jhonatan\documents\visual studio 2012\projects\proyectot3_aplicacionventas\proyectot3_aplicacionventas\MantenedorProducto.h(183): warning C4101: 'myReader' : variable local sin referencia
+     1>c:\users\jhonatan\documents\visual studio 2012\projects\proyectot3_aplicacionventas\proyectot3_aplicacionventas\MantenedorEmpleado.h(157): warning C4101: 'myReader' : variable local sin referencia
+     1>c:\users\jhonatan\documents\visual studio 2012\projects\proyectot3_aplicacionventas\proyectot3_aplicacionventas\MantenedorEmpleado.h(180): warning C4101: 'myReader' : variable local sin referencia
+     1>Principal1.cpp(7): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jhonatan\Documents\Visual Studio 2012\Projects\ProyectoT3_AplicacionVentas\Debug\ProyectoT3_AplicacionVentas.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\ProyectoT3_AplicacionVentas.DatosUsuario.resources /ASSEMBLYRESOURCE:Debug\ProyectoT3_AplicacionVentas.MantenedorEmpleado.resources /ASSEMBLYRESOURCE:Debug\ProyectoT3_AplicacionVentas.MantenedorProducto.resources /ASSEMBLYRESOURCE:Debug\ProyectoT3_AplicacionVentas.Principal1.resources /ASSEMBLYRESOURCE:Debug\ProyectoT3_AplicacionVentas.RegistrarProducto.resources /ASSEMBLYRESOURCE:Debug\ProyectoT3_AplicacionVentas.Sistema.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jhonatan\Documents\Visual Studio 2012\Projects\ProyectoT3_AplicacionVentas\Debug\ProyectoT3_AplicacionVentas.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\DatosUsuario.obj
+         Debug\Estructuras.obj
+         Debug\MantenedorEmpleado.obj
+         Debug\MantenedorProducto.obj
+         Debug\Principal1.obj
+         Debug\RegistrarProducto.obj
+         Debug\Sistema.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         ProyectoT3_AplicacionVentas.vcxproj -> C:\Users\jhonatan\Documents\Visual Studio 2012\Projects\ProyectoT3_AplicacionVentas\Debug\ProyectoT3_AplicacionVentas.exe
+     1>Compilación del proyecto terminada "C:\Users\jhonatan\Documents\Visual Studio 2012\Projects\ProyectoT3_AplicacionVentas\ProyectoT3_AplicacionVentas\ProyectoT3_AplicacionVentas.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.53
