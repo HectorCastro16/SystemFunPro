@@ -3,7 +3,10 @@
 #include <msclr\marshal_cppstd.h>
 
 namespace ProyectoT3_AplicacionVentas {
-
+	/*/
+	probando cambio
+	wwwer
+	f*/
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
